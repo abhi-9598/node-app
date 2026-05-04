@@ -18,8 +18,8 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
     - name: build and push docker image
-      run: docker build -t yadavabhi0001/node-app:latest .
+      run: docker build -t abhishekyadav11/node-app:latest .
     - name: push docker image in docker hub
-      run: docker push yadavabhi0001/node-app:latest
+      run: docker push abhishekyadav11/node-app:latest
      
      
